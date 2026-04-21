@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "consultoria",
+    "preco": 50.0,
+    "descricao": "Consultoria básica"
+  },
+  {
+    "nome": "design",
+    "preco": 150.0,
+    "descricao": "Design de logo / identidade visual"
+  },
+  {
+    "nome": "social media",
+    "preco": 300.0,
+    "descricao": "Gestão de redes sociais (mensal)"
+  },
+  {
+    "nome": "site",
+    "preco": 800.0,
+    "descricao": "Desenvolvimento de site institucional"
+  }
+]

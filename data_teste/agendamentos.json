@@ -1,0 +1,12 @@
+[
+  {
+    "id": "20260421165622858883",
+    "status": "confirmado",
+    "criado_em": "2026-04-21T16:56:22.859245",
+    "nome_cliente": "Carlos Mendes",
+    "servico": "consultoria",
+    "data": "21/04",
+    "hora": "9h",
+    "observacoes": "Quero agendar consultoria para amanhã às 9h. Sou Carlos Mendes."
+  }
+]
