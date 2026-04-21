@@ -1,0 +1,30 @@
+Explicação do código:
+Estrutura modular: Classe RuleBasedBot contém toda a lógica. Cada método tem responsabilidade única (identificar intenção, extrair nome, etc.).
+
+Regras baseadas em dicionário:
+
+self.intencoes: mapeia intenções para listas de palavras-chave.
+
+self.respostas: respostas padrão para cada intenção.
+
+self.servicos_validos: mapeia serviço canônico para sinônimos (útil para padronizar).
+
+Extração de entidades com regex:
+
+Nome: padrões como "me chamo X", "nome: X" ou duas palavras capitalizadas consecutivas.
+
+Serviço: busca por sinônimos definidos no dicionário.
+
+Horário: usa regex para capturar combinações de data + hora ou apenas hora.
+
+Processamento da mensagem:
+
+Identifica intenção.
+
+Extrai entidades.
+
+Se for agendamento e tiver todos os dados, gera confirmação; senão, pede os faltantes.
+
+Retorna um dicionário estruturado, fácil de integrar com outras camadas (banco de dados, API).
+
+Teste embutido: ao executar o script diretamente, simula algumas interações.
