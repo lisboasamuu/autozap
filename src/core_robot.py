@@ -351,7 +351,7 @@ class RuleBasedBot:
             "agendamento_completo": agendamento_completo,
         }
 
-
+'''
 # --- Simulação de uso (teste interno) ---
 if __name__ == "__main__":
     # Teste sem storage (comportamento original)
@@ -400,3 +400,5 @@ if __name__ == "__main__":
             print(f"  - {ag['data']} {ag['hora']}: {ag['nome_cliente']} ({ag['servico']})")
     except ImportError:
         print("Módulo 'storage' não encontrado. Execute o teste com storage após criar storage.py")
+
+'''
